@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 100px;
+            height: 100px;
+            background: red;
+            _display: none;
+            padding: 50px;
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+
+    <script>
+        const box = document.getElementById('box');
+
+        console.log(box.clientLeft);
+        
+    </script>
+</body>
+</html>
